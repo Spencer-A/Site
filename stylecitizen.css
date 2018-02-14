@@ -20,6 +20,10 @@ ul {
   font-family: 'Lora', serif;
 }
 
+img {
+  border: 2px dashed white;
+}
+
 a {
   color: blue
 }

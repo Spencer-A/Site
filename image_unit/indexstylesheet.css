@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(150, 150, 150);
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  font-family: 'Slabo 27px', serif;
+}

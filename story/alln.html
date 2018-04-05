@@ -1,0 +1,32 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="story.css"/>
+    <title>Choose Your Own Adventure</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <script type="text/javascript">
+      function allnighter(){
+        var a = Math.random()
+        if (a < 0.5){
+          location.href = "med.html"
+        } else {
+          location.href = "bad.html"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <p>Now, Sulfur, the project is due tomorrow and you have quite a lot of editing to do.
+    It's getting late. It's dark outside and you are tired. Do you give up and just go to
+    sleep, or do you attempt to stay awake long enough to salvage the project?</p>
+    <table align="center">
+      <tr>
+        <td><a href="#" onclick=allnighter()> Attempt an all nighter</a></td>
+        <td><a href="bad.html"> Just go to sleep</a></td>
+      </tr>
+    </table>
+
+  </body>
+
+</html>

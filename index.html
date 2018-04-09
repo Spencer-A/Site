@@ -1,20 +1,96 @@
-<html>
-
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Index</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Spencer's Home Page</title>
   </head>
-
   <body>
-    <h1>Index Page</h1>
-    <a href="citizenship.html"> Citizenship Page</a>
-    <br>
-    <a href="contract.html"> Contract</a>
-    <br>
-    <a href="image_unit/"> Images</a>
-    <br>
-    <a href="image_unit/image_formats.html"> Image Formats</a>
-    <br>
-    <a href="story/"> Choose Your Own Adventure</a>
-  </body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Spencer's Home Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="contract.html">My Contract<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    School Websites
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://www.lsrhs.net/">Main Site</a>
+                    <a class="dropdown-item" href="https://ipass.lsrhs.net/school/ipass/index.html?dt=04041832476">iPass</a>
+                    <a class="dropdown-item" href="https://connection.naviance.com/family-connection/auth/login/?hsid=lsrhs">Naviance</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div> <!-- end row 1 (navbar) -->
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-info" role="alert">
+            Please note that this site is still a work in progress<br>
+            Check back later for upcoming projects
+          </div>
+        </div>
+      </div> <!-- end row 2 (alert)-->
+      <div class="row">
+        <div class="col">
+          <div class="card-group">
+            <div class="card"> <!-- Citizenship -->
+              <img class="card-img-top" src="citizenship.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Citizenship</h5>
+                <p class="card-text">What does it mean to be a citizen? How can you be
+                a good citizen? What does model citiznehsip look like?</p>
+                <a href="citizenship.html" class="btn btn-primary">Go to Citizenship</a>
+              </div>
+            </div>
+            <div class="card"> <!-- Images -->
+              <img class="card-img-top" src="image_unit/iceland.jpg" alt="Card image cap" height="180px">
+              <img class="card-img-top" src="image_unit/space.jpg" alt="Card image cap" height="150px">
+              <div class="card-body">
+                <h5 class="card-title">Images</h5>
+                <p class="card-text">Spencer's 6 favorite images of all time. Includes a summary of
+                the three major digital image formats.</p>
+                <a href="image_unit/" class="btn btn-primary">Go to Images</a>
+              </div>
+            </div>
+            <div class="card"> <!-- CYOA -->
+              <img class="card-img-top" src="story/welcome.jpg" alt="Card image cap">
+              <img class="card-img-top" src="story/good.jpg" alt="Card image cap">
+              <img class="card-img-top" src="story/medium.jpg" alt="Card image cap">
+              <img class="card-img-top" src="story/bad.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Choose Your Own Adventure</h5>
+                <br><p class="card-text">An engaging, thrilling adventure where you are forced to test
+                your cooperation, responsibility, resilience, and decision making skills. Which ending
+                will you get?</p><br>
+                <a href="story/" class="btn btn-primary">Go to the Story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end row 3 (cards)-->
+    </div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

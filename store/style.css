@@ -1,0 +1,17 @@
+body {
+  color: white;
+  background-image: url("storeback.jpg");
+  font-family: 'Arvo', serif;
+}
+
+#cards, #reviews, #jumbo, #exampleModal {
+  color: black;
+}
+
+.carousel img {
+     margin: auto;
+}
+
+h1 {
+  text-align: center;
+}

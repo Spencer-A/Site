@@ -1,0 +1,13 @@
+body {
+  color: white;
+  background-image: url("storeback.jpg");
+  font-family: 'Slabo 27px', serif;
+}
+
+#cards, #reviews {
+  color: black;
+}
+
+.carousel img {
+     margin: auto;
+}
